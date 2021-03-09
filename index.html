@@ -73,7 +73,35 @@
             </a>
             <div class="backdrop is-hidden" data-modal>
               <div class="modal" >
-                <button class="close-modal" data-modal-close>X</button>
+                <button class="close-modal" data-modal-close>
+                  <svg class="close-icon" >
+                    <use href="./images/icons.svg#close-form"></use>
+                  </svg>
+                </button>
+                <div class="form-content">
+                  <h2>Оставьте свои данные, мы вам перезвоним</h2>
+
+                  <div class="form-field">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" autofocus/>
+                  </div>
+            
+                  <div class="form-field">
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" id="tel" />
+                  </div>
+            
+                  <div class="form-field">
+                    <label for="mail">Почта</label>
+                    <input type="email" name="mail" id="mail" />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="coment">Комментарий</label>
+                    <textarea name="coment" id="coment" cols="30" rows="8" ></textarea>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
