@@ -541,7 +541,9 @@ index.html - css
 }
 
 .checkbox-icon{
-  
+  width: 16px;
+  height: 15px;
+  margin-right: 7px;
   background-size: contain;
   background-origin: border-box;
 }
