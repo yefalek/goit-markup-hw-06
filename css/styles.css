@@ -491,14 +491,12 @@ index.html - css
 
 .form-field input:focus,
 .form-field input:hover{
-  color: #2196F3;
   border: 1px solid var(--first-color);
 }
 
 .form-field input:focus .modal-icon,
 .form-field input:hover .modal-icon{
   fill: var(--first-color);
-  color: var(--first-color);
 }
 
 .modal-icon{
