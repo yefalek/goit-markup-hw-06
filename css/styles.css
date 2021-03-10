@@ -461,15 +461,8 @@ index.html - css
   text-align: left;
 }
 
-.modal-icon{
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  top: 30px;
-  left: 15px;
-}
 
-.form-field label{
+.form-field span{
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -479,9 +472,9 @@ index.html - css
   color: var(--third-color);
 }
 
-.form-field input{
+.input-modal{
   padding-left: 40px;
-
+  outline: none;
   margin-bottom: 10px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -489,17 +482,24 @@ index.html - css
   border-radius: 4px;
 }
 
-.form-field input:focus,
-.form-field input:hover{
+.input-modal:focus,
+.input-modal:hover{
   border: 1px solid var(--first-color);
 }
 
-.form-field input:focus .modal-icon,
-.form-field input:hover .modal-icon{
+.input-modal:focus +.modal-icon,
+.input-modal:hover +.modal-icon{
   fill: var(--first-color);
+  color: #2196F3;
 }
 
 .modal-icon{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 30px;
+  left: 15px;
+
   fill: currentColor;
 }
 
@@ -512,12 +512,11 @@ index.html - css
   resize: none;
 }
 
-.plicy-checkbox{
+.policy{
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 40px 30px;
+  padding: 20px 20px 30px;
 }
 
 .plicy-checkbox label{
@@ -542,9 +541,14 @@ index.html - css
 }
 
 .checkbox-icon{
-  background-image: url('../img/full-check.svg');
+  
   background-size: contain;
   background-origin: border-box;
+}
+
+.policy span a{
+  text-decoration: underline;
+  color: var(--first-color);
 }
 
 .container.index{

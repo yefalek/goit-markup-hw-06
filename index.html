@@ -78,47 +78,39 @@
                     <use href="./images/icons.svg#close-form"></use>
                   </svg>
                 </button>
-                <div class="form-content">
+                <form class="form-content">
                   <h2>Оставьте свои данные, мы вам перезвоним</h2>
 
-                  <div class="form-field">
-                    <label for="name">Имя</label>
-                    <input type="text" id="name" autofocus/>
-                    <div class="modal-ico">
-                      <svg class="modal-icon" >
-                        <use href="./images/icons.svg#person-ico"></use>
-                      </svg>
-                    </div>
-                  </div>
+                  <label class="form-field" >
+                    <span>Имя</span> 
+                    <input class="input-modal" type="text"  autofocus/>
+                    <svg class="modal-icon" >
+                      <use href="./images/icons.svg#person-ico"></use>
+                    </svg>
+                  </label>
+                  
+                  <label class="form-field" >
+                    <span>Телефон</span> 
+                    <input class="input-modal" type="text"  autofocus/>
+                    <svg class="modal-icon" >
+                      <use href="./images/icons.svg#phone-form"></use>
+                    </svg>
+                  </label>
             
-                  <div class="form-field">
-                    <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel" />
-                    <div class="modal-ico">
-                      <svg class="modal-icon" >
-                        <use href="./images/icons.svg#phone-form"></use>
-                      </svg>
-                    </div>
-                  </div>
-            
-                  <div class="form-field">
-                    <label for="mail">Почта</label>
-                    <input type="email" name="mail" id="mail" />
-                    <div class="modal-ico">
-                      <svg class="modal-icon" >
-                        <use href="./images/icons.svg#mail-form"></use>
-                      </svg>
-                    </div>
-                  </div>
+                  <label class="form-field" >
+                    <span>Почта</span> 
+                    <input class="input-modal" type="text"  autofocus/>
+                    <svg class="modal-icon" >
+                      <use href="./images/icons.svg#mail-form"></use>
+                    </svg>
+                  </label>
 
-                  <div class="form-field">
-                    <label for="coment">Комментарий</label>
+                  <label class="form-field">
+                    <span>Комментарий</span>
                     <textarea name="coment" id="coment" cols="30" rows="8" ></textarea>
-                  </div>
-                </div>
-
-                <div class="plicy-checkbox">
-                   <label class="policy"><!--field -->
+                  </label>
+                  
+                  <label class="policy"><!--field -->
                     <input class="checkbox" type="checkbox" name="policy" value="policy"/>
                     <span class="checkbox-icon">
                       <!-- <svg class="close-icon" >
@@ -127,9 +119,8 @@
                     </span>
                     <span>Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></span>
                   </label>
-                </div>
-          
                 <button type="submit">Отправить</button>
+                </form>
               </div>
             </div>
           </div>
