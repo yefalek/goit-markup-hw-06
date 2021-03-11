@@ -519,16 +519,6 @@ index.html - css
   padding: 20px 20px 30px;
 }
 
-.plicy-checkbox label{
-  padding-left: 10px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--third-color);
-} 
-
 .checkbox{
   position: absolute;
   width: 1px;
@@ -536,21 +526,58 @@ index.html - css
   margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
 .checkbox-icon{
+  display: block;
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  background-size: contain;
-  background-origin: border-box;
+  border: 2px solid var(--second-color);
+  border-radius: 2px;
+  background-color: inherit;
+  fill: var(--first-color);
+  transition: display var(--cubic-animation-time);
 }
 
-.policy span a{
+.checkbox-icon use{
+  display: none;
+}
+
+.checkbox:checked + .checkbox-icon use{
+  display: inline-block;
+}
+
+.checkbox:checked + .checkbox-icon{
+  border: none;
+}
+
+.policy a{
   text-decoration: underline;
   color: var(--first-color);
+}
+
+.button-modal{
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 712px;
+
+  background: var(--first-color);
+  color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  outline: none;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 .container.index{
