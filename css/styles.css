@@ -60,7 +60,6 @@ img {
 .head{
   position: relative;
   display: flex;
-  justify-content: baseline;
   padding-top: 24px;
   padding-bottom: 25px; 
   margin: 0 auto;
