@@ -1,6 +1,10 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 
+<symbol id="telegram" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 0L0 13.5l7.67 2.84L19.5 5.25l-8.998 12.14.007.002-.009-.002V24l4.301-5.018L20.251 21 24 0z" fill="#fff"/>
+</symbol>
+
 <symbol id="phone-form"  viewBox="0 0 16 12">
 <path d="M11.996 9.1226l-1.8381-.21a1.4406 1.4406 0 00-1.1869.4126l-1.3316 1.3316c-2.048-1.0421-3.7269-2.7138-4.769-4.7691l1.3388-1.3388a1.4406 1.4406 0 00.4125-1.1868L4.412 1.5383A1.4484 1.4484 0 002.9717.2574h-1.252C.902.2574.2218.9377.2725 1.7554.656 7.9358 5.5987 12.8713 11.7717 13.2549c.8177.0506 1.498-.6296 1.498-1.4474v-1.2519c.0072-.731-.5428-1.3461-1.2737-1.433z" />
 </symbol>
