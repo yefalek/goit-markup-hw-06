@@ -512,7 +512,9 @@ index.html - css
   display: flex;
   flex-direction: column;
   text-align: left;
-  
+}
+
+.form-field:nth-child(-n+4){
   margin-bottom: 10px;
 }
 
@@ -574,7 +576,7 @@ index.html - css
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px 30px;
+  margin: 20px 20px 30px;
 }
 
 .checkbox{
