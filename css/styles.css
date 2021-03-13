@@ -512,6 +512,8 @@ index.html - css
   display: flex;
   flex-direction: column;
   text-align: left;
+  
+  margin-bottom: 10px;
 }
 
 
@@ -528,7 +530,6 @@ index.html - css
 .input-modal{
   padding-left: 40px;
   outline: none;
-  margin-bottom: 10px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
