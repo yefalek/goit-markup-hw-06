@@ -518,7 +518,6 @@ index.html - css
   margin-bottom: 10px;
 }
 
-
 .form-field span{
   font-style: normal;
   font-weight: normal;
@@ -872,7 +871,9 @@ index.html - css
 }
 
 .aclient{
-  padding: 20px 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
@@ -887,8 +888,6 @@ index.html - css
 }
 
 .client-icon{
-  width: 45px;
-  height: 50px;
   fill: currentColor;
 }
 
